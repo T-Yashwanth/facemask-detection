@@ -1,0 +1,18 @@
+install all the packages.
+
+we have .ipynb file and .py files 
+
+In .ipynb files we have trained our MobileNet V2 and saved our model and we used data set from the Kaggle.
+Data set link is in Report.
+
+
+we have few .py files. files 1_Dlib_CNN_FmCM_Camera.p, 2_OpenCV_DNN_FmCM_Camera.py, 3_HaarCascade_FmCM_Camera.py are for mask/nomask deection it can be executed using the 
+"run python file button" or use this command in terminal "python file_Name"
+
+the files 4_FacemaskImage_DNN.py, FaceMaskImage_Dlib_HoGLinearSVM.py are for mask/nomask detection on a image
+so put the image you want to test in "testdata" folder and give the file name in the code example "frame = cv.imread('./testdata/1.jpeg')"
+execute this files same as above files using run button or terminal 
+
+there are few other files in the folder those are the saved models
+
+I have added few output images in the output folder 
